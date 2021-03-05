@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Menu from '../components/Menu'
 
 const Header = () => {
 
 return(
-
+    <div>
+<Menu/>
 <header className="App-header">
         <h1>@nastkazgdanska</h1>
         <p>
@@ -19,6 +20,7 @@ return(
           Learn React
         </a>
       </header>
+      </div>
 )
 }
 export default Header;
