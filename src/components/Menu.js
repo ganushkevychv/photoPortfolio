@@ -13,8 +13,7 @@ import {
     DropdownMenu,
     DropdownItem
   } from 'reactstrap';
-import facebook from '../img/icons/facebook.png'
-import instagram from '../img/icons/instagram.png'
+import {Link} from 'react-router-dom'
 
  
 
@@ -32,10 +31,10 @@ return(
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="#">Gallery</NavLink>
-            </NavItem>
+              <NavLink><Link to="/Gallery">Gallery</Link></NavLink>
+              </NavItem>
             <NavItem>
-              <NavLink href="#">Contacts</NavLink>
+            <NavLink><Link to="/Contacts">Contacts</Link></NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -43,10 +42,10 @@ return(
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Facebook
+                <a href="https://www.facebook.com/AnastasiiaGanushkevych/">Facebook</a>
                 </DropdownItem>
                 <DropdownItem>
-                  Instagram
+                <a href="https://www.instagram.com/nastkazgdanska/">Instagram</a>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

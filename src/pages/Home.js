@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from '../components/Menu'
 
-const Header = () => {
+
+const Home = () => {
 
 return(
     <div>
-<Menu/>
+
 <header className="App-header">
         <h1>@nastkazgdanska</h1>
         <p>
@@ -23,4 +23,4 @@ return(
       </div>
 )
 }
-export default Header;
+export default Home;
