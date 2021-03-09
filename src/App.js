@@ -5,6 +5,7 @@ import Menu from '../src/components/Menu'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Gallery from '../src/pages/Gallery';
 import Contacts from '../src/pages/Contacts';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
   return (
@@ -17,7 +18,12 @@ function App() {
     <Route path="/Contacts" component={Contacts}/>
     </Switch>
     </div>
+    <MessengerCustomerChat
+    pageId="107713631020253"
+    appId="2569460616679861"
+  />
     </Router>
+    
   );
 }
 

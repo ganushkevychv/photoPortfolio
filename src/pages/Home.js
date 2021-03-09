@@ -1,5 +1,5 @@
 import React from 'react';
-import Messenger from '../components/Messenger'
+
 
 const Home = () => {
 
@@ -20,7 +20,6 @@ return(
           Learn React
         </a>
       </header>
-      <Messenger/>
       </div>
 )
 }
