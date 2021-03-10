@@ -31,10 +31,10 @@ return(
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink><Link to="/Gallery">Gallery</Link></NavLink>
+             <Link to="/Gallery">Gallery</Link>
               </NavItem>
             <NavItem>
-            <NavLink><Link to="/Contacts">Contacts</Link></NavLink>
+            <Link to="/Contacts">Contacts</Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -42,7 +42,9 @@ return(
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
+                 
                 <a href="https://www.facebook.com/AnastasiiaGanushkevych/">Facebook</a>
+                
                 </DropdownItem>
                 <DropdownItem>
                 <a href="https://www.instagram.com/nastkazgdanska/">Instagram</a>
