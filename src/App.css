@@ -44,3 +44,9 @@
     transform: rotate(360deg);
   }
 }
+/* Home page */
+
+.cardFamily {
+  display: flex;
+  justify-content: end;
+}
