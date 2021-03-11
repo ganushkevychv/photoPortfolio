@@ -15,16 +15,11 @@ return(
 <header className="App-header">
         <h1>@nastkazgdanska</h1>
         <p>
-         {t("index.slogan")}
+         {t("index.name")}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+        {t("index.slogan")}
+        </p>
       </header>
 
       <div className="cardFamily">

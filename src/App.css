@@ -44,8 +44,16 @@
     transform: rotate(360deg);
   }
 }
-/* Home page */
+/* menu component */
 
-/* .carousel {
-
-} */
+.link {
+  color: white;
+  padding-top: 5px;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  justify-content: center;
+}
+.nav-link {
+  padding: .5rem 1rem;
+  display: inline !important;
+}

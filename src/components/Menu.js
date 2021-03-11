@@ -30,10 +30,10 @@ return(
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-             <Link to="/Gallery">Gallery</Link>
+             <Link className="link" to="/Gallery">Gallery</Link>
               </NavItem>
             <NavItem>
-            <Link to="/Contacts">Contacts</Link>
+            <Link className="link" to="/Contacts">Contacts</Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
