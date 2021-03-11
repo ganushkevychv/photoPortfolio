@@ -4,7 +4,8 @@ import "../translations/i18n"
 import CardFamily from '../components/CardFamily'
 import CardNature from '../components/CardNature'
 import CardKids from '../components/CardKids'
-
+import CardFood from '../components/CardFood'
+import CardPortrait from '../components/CardPortrait'
 const Home = (props) => {
 
   const { t } = useTranslation();
@@ -12,9 +13,9 @@ const Home = (props) => {
 return(
     <div>
 <header className="App-header">
-        <h1>{t("index.name")}</h1>
+        <h1>@nastkazgdanska</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         {t("index.slogan")}
         </p>
         <a
           className="App-link"
@@ -34,6 +35,12 @@ return(
       </div>
       <div className="cardFamily">
       <CardKids/>
+      </div>
+      <div className="carousel">
+      <CardFood/>
+      </div>
+      <div>
+        <CardPortrait/>
       </div>
       </div>
 )

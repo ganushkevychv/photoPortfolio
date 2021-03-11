@@ -7,7 +7,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -25,7 +24,7 @@ const toggle = () => setIsOpen(!isOpen);
 
 return(
 <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="dark" dark expand="md">
         <NavbarBrand href="/">@nastkazgdanska</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

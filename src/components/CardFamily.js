@@ -11,7 +11,7 @@ import {
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import family from '../img/images/family.jpg'
+import family from '../img/images/family.png'
 
 
 
@@ -55,7 +55,7 @@ export const CardFamily = React.memo(function GalaxyCard() {
           <Info useStyles={useGalaxyInfoStyles}>
             <InfoSubtitle>Galaxy</InfoSubtitle>
             <InfoTitle>Buds 2019</InfoTitle>
-            <InfoCaption>Perfect for everyone</InfoCaption>
+            <InfoCaption>@nastkazgdanska</InfoCaption>
           </Info>
         </Box>
       </Card>
