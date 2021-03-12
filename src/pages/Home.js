@@ -6,6 +6,7 @@ import CardNature from '../components/CardNature'
 import CardKids from '../components/CardKids'
 import CardFood from '../components/CardFood'
 import CardPortrait from '../components/CardPortrait'
+import logo from '../img/images/logo.png'
 const Home = (props) => {
 
   const { t } = useTranslation();
@@ -13,12 +14,13 @@ const Home = (props) => {
 return(
     <div>
 <header className="App-header">
+<img src={logo} className="App-logo" alt="logo" />
         <h1>@nastkazgdanska</h1>
         <p>
          {t("index.name")}
         </p>
         <p>
-        {t("index.slogan")}
+        {t("index.city")}
         </p>
       </header>
 

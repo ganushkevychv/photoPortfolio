@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {useTranslation} from "react-i18next";
+import "../translations/i18n"
 import {
     Collapse,
     Navbar,
@@ -18,6 +20,8 @@ import {Link} from 'react-router-dom'
 
 const Menu = () => {
 
+const { t } = useTranslation();
+
 const [isOpen, setIsOpen] = useState(false);
 
 const toggle = () => setIsOpen(!isOpen);
@@ -30,14 +34,14 @@ return(
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-             <Link className="link" to="/Gallery">Gallery</Link>
+             <Link className="link" to="/Gallery">{t("menu.gallery")}</Link>
               </NavItem>
             <NavItem>
-            <Link className="link" to="/Contacts">Contacts</Link>
+            <Link className="link" to="/Contacts">{t("menu.contacts")}</Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-               Social links
+               {t("menu.social")}
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>

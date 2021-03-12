@@ -1,19 +1,20 @@
 export default {
     index: {
         name:"Anastasiia Ganushkevych",
-        slogan:"Cherish every moment"
+        slogan:"Cherish every moment",
+        city:"Photographer, Tricity"
     },
     menu: {
-        about:"About",
+        social:"Social links",
         gallery:"Gallery",
         contacts:"Contacts"
     },
-    modal: {
+    card: {
         titleNature:"Nature",
         titleKids:"Kids",
         titleFamily:"Family",
-        buttonOpen:"Open",
-        buttonClose:"Close"
+        titleFood:"Food Photo",
+        titlePortrait:"Portrait"
     },
     gallery: {
         buttonBack:"Back",

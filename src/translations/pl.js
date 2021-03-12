@@ -1,19 +1,20 @@
 export default {
     index: {
         name:"Anastasiia Ganushkevych",
-        slogan:"Zadbaj o każdej chwilę"
+        slogan:"Zadbaj o każdej chwilę",
+        city:"Fotograf, Trójmiasto"
     },
     menu: {
-        about:"O mnie",
+        social:"Sieć społecznościowa",
         gallery:"Galeria",
         contacts:"Kontakt"
     },
-    modal: {
+    card: {
         titleNature:"Przyroda",
         titleKids:"Dzieci",
         titleFamily:"Rodzina",
-        buttonOpen:"Otwórz",
-        buttonClose:"Zamknij"
+        titleFood:"Fotografia Kulinarna",
+        titlePortrait:"Portret"
     },
     gallery: {
         buttonBack:"Powrót",

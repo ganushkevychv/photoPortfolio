@@ -1,12 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import {useTranslation} from "react-i18next";
+import "../translations/i18n"
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import {
   Info,
   InfoCaption,
-  InfoSubtitle,
   InfoTitle,
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
@@ -42,8 +43,11 @@ const useStyles = makeStyles(() => ({
 }));
 
 export const CardPortraite = React.memo(function GalaxyCard() {
+
+  const { t } = useTranslation();
   const mediaStyles = useCoverCardMediaStyles({ bgPosition: 'top' });
   const styles = useStyles();
+
   return (
     <>
       <Card className={styles.card}>
@@ -53,8 +57,7 @@ export const CardPortraite = React.memo(function GalaxyCard() {
         />
         <Box py={3} px={2} className={styles.content}>
           <Info useStyles={useGalaxyInfoStyles}>
-            <InfoSubtitle>Galaxy</InfoSubtitle>
-            <InfoTitle>Buds 2019</InfoTitle>
+            <InfoTitle>{t("card.titlePortrait")}</InfoTitle>
             <InfoCaption>@nastkazgdanska</InfoCaption>
           </Info>
         </Box>

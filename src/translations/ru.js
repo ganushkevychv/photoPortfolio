@@ -1,19 +1,20 @@
 export default {
     index:{
         name:"Анастасия Ганушкевич",
-        slogan:"Берегите каждое мгновение"
+        slogan:"Берегите каждое мгновение",
+        city:"Фотограф, Трехградье"
     },
     menu: {
-        about:"Обо мне",
+        social:"Социальные сети",
         gallery:"Галерея",
         contacts:"Контакты"
     },
-    modal: {
+    card: {
         titleNature:"Природа",
         titleKids:"Дети",
         titleFamily:"Семья",
-        buttonOpen:"Открыть",
-        buttonClose:"Закрыть"
+        titleFood:"Фуд Фотография",
+        titlePortrait:"Портрет"
     },
     gallery: {
         buttonBack:"Назад",
