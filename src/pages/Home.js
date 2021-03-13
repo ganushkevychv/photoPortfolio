@@ -23,21 +23,14 @@ return(
         {t("index.city")}
         </p>
       </header>
-
+      <div>
+        <CardPortrait/>
+      </div>
       <div className="cardFamily">
         <CardFamily/>
       </div>
       <div className="cardFamily">
-      <CardNature/>
-      </div>
-      <div className="cardFamily">
       <CardKids/>
-      </div>
-      <div className="carousel">
-      <CardFood/>
-      </div>
-      <div>
-        <CardPortrait/>
       </div>
       </div>
 )
