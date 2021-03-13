@@ -12,7 +12,7 @@ import {
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import portrait from '../img/images/portrait.png'
+import portrait from '../img/images/portrait.jpg'
 
 
 

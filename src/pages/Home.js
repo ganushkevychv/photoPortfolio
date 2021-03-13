@@ -2,9 +2,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 import "../translations/i18n"
 import CardFamily from '../components/CardFamily'
-import CardNature from '../components/CardNature'
 import CardKids from '../components/CardKids'
-import CardFood from '../components/CardFood'
 import CardPortrait from '../components/CardPortrait'
 import logo from '../img/images/logo.png'
 const Home = (props) => {

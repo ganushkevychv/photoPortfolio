@@ -12,7 +12,7 @@ import {
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import kids from '../img/images/kids.png'
+import kids from '../img/images/kids.jpg'
 
 
 const useStyles = makeStyles(() => ({
