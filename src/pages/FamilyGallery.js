@@ -12,10 +12,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
       <SRLWrapper elements={photos}>
       <Gallery photos={photos} direction={"column"} margin={4}/>
       </SRLWrapper>
-            
-         
- 
-     
     </div>
   );
 }

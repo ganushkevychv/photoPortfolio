@@ -7,6 +7,7 @@ import seven from '../img/images/gallery/seven.jpg'
 import six from '../img/images/gallery/six.jpg'
 import tree from '../img/images/gallery/tree.jpg'
 import Two from '../img/images/gallery/Two.jpg'
+import _8 from '../img/images/gallery/8.jpg'
 
 export const photos = [
     {
@@ -53,5 +54,10 @@ export const photos = [
       src: six,
       width: 1,
       height: 1
+    },
+    {
+      src: _8,
+      width: 6,
+      height: 9
     }
   ];

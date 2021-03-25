@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
 import "../translations/i18n"
-
+import Footer from '../components/Footer'
 import CardFamily from '../components/CardFamily'
 import CardKids from '../components/CardKids'
 import CardPortrait from '../components/CardPortrait'
@@ -22,7 +22,7 @@ return(
         {t("index.city")}
         </p>
       </header>
-      <div>
+      <div id="CardPortrait">
         <CardPortrait/>
       </div>
       <div className="cardFamily">
@@ -30,6 +30,9 @@ return(
       </div>
       <div className="cardFamily">
       <CardKids/>
+      </div>
+      <div>
+        <Footer/>
       </div>
       </div>
 )
