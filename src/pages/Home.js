@@ -1,6 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
 import "../translations/i18n"
+
 import CardFamily from '../components/CardFamily'
 import CardKids from '../components/CardKids'
 import CardPortrait from '../components/CardPortrait'

@@ -10,6 +10,7 @@ import {
   InfoCaption,
   InfoTitle,
 } from '@mui-treasury/components/info';
+import {Link} from 'react-router-dom'
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
 import family from '../img/images/family.jpg'
@@ -50,6 +51,7 @@ export const CardFamily = React.memo(function GalaxyCard() {
   
   return (
     <>
+    <Link to="/FamilyGallery">
       <Card className={styles.card}>
         <CardMedia
           classes={mediaStyles}
@@ -62,6 +64,7 @@ export const CardFamily = React.memo(function GalaxyCard() {
           </Info>
         </Box>
       </Card>
+      </Link>
       </>
   );
 });
