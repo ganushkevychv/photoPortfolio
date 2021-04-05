@@ -28,7 +28,7 @@ const toggle = () => setIsOpen(!isOpen);
 
 return(
 <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="light" light expand="md">
         <NavbarBrand href="/">@nastkazgdanska</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

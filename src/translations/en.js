@@ -40,4 +40,15 @@ export default {
     success: {
         message:"Message sent",
     },
+    footer:
+    {
+about:"About me",
+text:"Hello. My name is Anastasiia Ganushkevych",
+address:"Gdansk, Poland"
+    },
+    contacts:
+    {
+        contact:"Contact Me",
+        answer:"I'LL WILL BE GLAD TO ANSWER YOUR QUESTIONS!"
+    }
     };

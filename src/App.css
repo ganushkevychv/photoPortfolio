@@ -16,7 +16,6 @@
 } */
 
 .App-header {
-  
   min-height:50vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +24,7 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+
 
 
 .navbar-collapse{
@@ -45,7 +45,7 @@
 /* menu component */
 
 .link {
-  color: white;
+  color: black;
   padding-top: 5px;
   padding-right: .5rem;
   padding-left: .5rem;
@@ -57,7 +57,6 @@
 }
 /* Footer component */
 .footer {
-  background-image:url('../src/img/backgoround/photoStudio.jpg');
   width: 100%;
   text-align: left;
   font-family: sans-serif;
@@ -84,7 +83,7 @@
 
 .footer .about {
   line-height: 20px;
-  color: #ffffff;
+  color: black;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -92,7 +91,7 @@
 
 .footer .about span {
   display: block;
-  color: #ffffff;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -107,10 +106,10 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #c9d2d8;
   border-radius: 2px;
   font-size: 20px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   line-height: 35px;
   margin-right: 3px;
@@ -125,8 +124,8 @@
 }
 
 .footer .footer-center i {
-  background-color: #33383b;
-  color: #ffffff;
+  background-color: black;
+  color: black;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -144,7 +143,7 @@
 
 .footer .footer-center p {
   display: inline-block;
-  color: #ffffff;
+  color: black;
   vertical-align: middle;
   margin: 0;
 }
@@ -169,7 +168,7 @@
 }
 
 .footer h2 {
-  color: #ffffff;
+  color: black;
   font-size: 36px;
   font-weight: normal;
   margin: 0;
@@ -180,7 +179,7 @@
 }
 
 .footer .menu {
-  color: #ffffff;
+  color: black;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -218,4 +217,32 @@
   .footer .footer-center i {
     margin-left: 0;
   }
+}
+/* icons component */
+.iconSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  
+}
+.icon {
+  background-color: #c9d2d8 ;
+border-radius: 2px;
+  font-size: 20px;
+  color: black;
+  width: 35px;
+  height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.iconsConteiner {
+  min-height:80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
 }

@@ -38,4 +38,15 @@ export default {
     success: {
         message:"Сообщение отправлено",
     },
+    footer:
+    {
+about:"Обо мне",
+text:"Всем привет. Меня зовут Anastasiia Ganushkevych",
+address:"Гданьск, Польша"
+    },
+    contacts:
+    {
+        contact:"Свяжитесь Со Мной",
+        answer:"Я БУДУ РАДА ОТВЕТИТЬ НА ВАШИ ВОПРОСЫ!"
+    }
     };

@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 import CardFamily from '../components/CardFamily'
 import CardKids from '../components/CardKids'
 import CardPortrait from '../components/CardPortrait'
-import logo from '../img/images/logo.png'
 import Header from '../components/Header'
 
 const Home = (props) => {

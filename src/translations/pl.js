@@ -40,4 +40,15 @@ export default {
     success: {
         message:"Wiadomość wysłana",
     },
-    };
+    footer:
+    {
+about:"O mnie",
+text:"Witam. Nazywam się Anastasiia Ganushkevych",
+address:"Gdańsk, Polska"
+    },
+    contacts:
+    {
+        contact:"Skontaktuj się ze mną",
+        answer:"CHĘTNIE ODPOWIEM NA TWOJE PYTANIA!"
+    }
+    };  
