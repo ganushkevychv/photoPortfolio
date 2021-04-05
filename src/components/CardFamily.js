@@ -56,6 +56,7 @@ export const CardFamily = React.memo(function GalaxyCard() {
         <CardMedia
           classes={mediaStyles}
           image={family}
+          alt="family image"
         />
         <Box py={3} px={2} className={styles.content}>
           <Info useStyles={useGalaxyInfoStyles}>

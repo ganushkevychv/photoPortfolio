@@ -17,11 +17,11 @@ const Contacts = () => {
             <p className="letter">----xxx----</p>
             <p>{t("contacts.answer")}</p>
             <div className="iconSocial">
-        <a className="icon" href="https://www.facebook.com/AnastasiiaGanushkevych/"><img src={facebook}/></a>
-        <a className="icon" href="https://www.linkedin.com/in/anastasiia-ganushkevych-523695182"><img src={linkedin}/></a>
-        <a className="icon" href="mailto:ganushkevycha@gmail.com"><img src={gmail}/></a>
-        <a className="icon" href="https://www.instagram.com/nastkazgdanska/"><img src={instagram}/></a>
-        <a className="icon" href="tel:512-371-168"><img src={telephone}/></a>
+        <a className="icon" href="https://www.facebook.com/AnastasiiaGanushkevych/" aria-label="Facebook"><img src={facebook} alt="Facebook"/></a>
+        <a className="icon" href="https://www.linkedin.com/in/anastasiia-ganushkevych-523695182" aria-label="Linkedin"><img src={linkedin} alt="Linkedin"/></a>
+        <a className="icon" href="mailto:ganushkevycha@gmail.com" aria-label="Gmail"><img src={gmail} alt="Gmail"/></a>
+        <a className="icon" href="https://www.instagram.com/nastkazgdanska/" aria-label="Instagram"><img src={instagram} alt="Instagram"/></a>
+        <a className="icon" href="tel:512-371-168" aria-label="Telephone"><img src={telephone} alt="Telephone"/></a>
       </div>
         </div>
     )

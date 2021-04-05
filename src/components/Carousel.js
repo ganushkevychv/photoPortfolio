@@ -37,7 +37,7 @@ const CarHeader = (props) => {
         onExited={() => setAnimating(false)}
         key={photo.src}
       >
-        <img src={photo.src} style={{height:"500px"}}  />
+        <img src={photo.src} style={{height:"500px"}} alt="set of images"/>
       </CarouselItem>
     );
   });
