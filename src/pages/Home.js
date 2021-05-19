@@ -15,7 +15,7 @@ const Home = (props) => {
 return(
     <div>
 <header className="App-header">
-<h1>@nastkazgdanska</h1>
+<h1 className="nameLogo">@nastkazgdanska</h1>
  <img src={logo} className="App-logo" alt="logo" /> 
 <h1 className="nameLogo">Anastasiia Ganushkevych</h1>
         {/* <p>
