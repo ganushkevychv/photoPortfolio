@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './fonts/Bulgatti-xgMV.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

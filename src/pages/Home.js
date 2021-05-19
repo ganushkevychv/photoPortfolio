@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import CardFamily from '../components/CardFamily'
 import CardKids from '../components/CardKids'
 import CardPortrait from '../components/CardPortrait'
-import Header from '../components/Header'
+
 
 const Home = (props) => {
 
@@ -16,15 +16,13 @@ return(
 <header className="App-header">
 {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
-<Header/>
-
         <h1>@nastkazgdanska</h1>
-        <p>
+        {/* <p>
          {t("index.name")}
         </p>
         <p>
         {t("index.city")}
-        </p>
+        </p> */}
       </header>
       <div id="CardPortrait">
         <CardPortrait/>

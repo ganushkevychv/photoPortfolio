@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
 } from 'reactstrap';
 import {photos} from '../components/photos'
+import Image from 'react-bootstrap/Image'
 
 
 
@@ -37,7 +38,7 @@ const CarHeader = (props) => {
         onExited={() => setAnimating(false)}
         key={photo.src}
       >
-        <img src={photo.src} style={{height:"500px"}} alt="set of images"/>
+        <Image src={photo.src}  alt="set of images" fluid/>
       </CarouselItem>
     );
   });
