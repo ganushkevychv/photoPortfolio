@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import CardFamily from '../components/CardFamily'
 import CardKids from '../components/CardKids'
 import CardPortrait from '../components/CardPortrait'
+import logo from '../img/images/logo.png'
 
 
 const Home = (props) => {
@@ -14,9 +15,9 @@ const Home = (props) => {
 return(
     <div>
 <header className="App-header">
-{/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-        <h1>@nastkazgdanska</h1>
+<h1>@nastkazgdanska</h1>
+ <img src={logo} className="App-logo" alt="logo" /> 
+<h1 className="nameLogo">Anastasiia Ganushkevych</h1>
         {/* <p>
          {t("index.name")}
         </p>
